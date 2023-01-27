@@ -1,0 +1,12 @@
+.num,
+.calcText,
+.result {
+  font-size: 60px;
+}
+
+.calcText {
+  color: #666;
+}
+.result {
+  text-align: center;
+}
