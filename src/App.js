@@ -95,7 +95,7 @@ function App() {
         <p>
           정답 : {ok}, 오답 : {ng}
         </p>
-        <p>정답률 : {ok + ng === 0 ? 0 : (ok / (ok + ng)) * 100}%</p>
+        <p>정답률 : {ok + ng === 0 ? 0 : parseInt((ok / (ok + ng)) * 100)}%</p>
         <button className="btn btn-primary" onClick={onClick}>
           확인
         </button>
